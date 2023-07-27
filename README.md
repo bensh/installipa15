@@ -47,7 +47,7 @@ Data: /private/var/mobile/Containers/Data/Application/CBDF993D-7908-40D3-BE42-F5
 ```
 
 ## Build
-Clone the git, and run make from the parent dir.
+Clone the git, and run make from the parent dir - requires [theos](https://theos.dev/docs/installation-macos) and updated sdks.
 ```
 installipa15$ make package FINALPACKAGE=1
 ==> Notice: Build may be slow as Theos isn’t using all available CPU cores on this computer. Consider upgrading GNU Make: https://theos.dev/docs/parallel-building
