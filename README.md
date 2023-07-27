@@ -3,7 +3,8 @@ Browse installed IPA files from command line updated for iOS 15.
 Verified on iPhoneX palear1n iOS 15.6
 
 All code copyright of the respective owners, and pulled from [autopear](https://github.com/autopear/ipainstaller) originally.  
-Updates to work on iOS 15 done by me.
+Updates to work on iOS 15 done by me.   
+Lot of options removed as covered by different tools, -i and -l being the most useful.
 
 ## Installation
 - Grab the packaged .deb and push to device via scp.
