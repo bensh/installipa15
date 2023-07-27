@@ -9,7 +9,7 @@ Updates to work on iOS 15 done by me.
 - Grab the packaged .deb and push to device via scp.
 - Install the .deb specifying the inst dir because of rootless JB.
 ```
-dpkg --instdir=/var/jb -i com.bensh.installipa15_1.0_iphone-arm64.deb
+$ dpkg --instdir=/var/jb -i com.bensh.installipa15_1.0_iphone-arm64.deb
 ```
 - Find the binary, then run, or add to path
 ```
@@ -20,7 +20,7 @@ $ find / -name installipa15 -print 2>/dev/null
 ## Usage
 ```
 iPhone:~ root# installipa15 
-Usage: installipa15 [OPTION]... [FILE]...
+Usage: installipa15 [OPTION]...
        installipa15 -i [APP_ID]...
        installipa15 -l
        
