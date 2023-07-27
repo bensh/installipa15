@@ -1,0 +1,12 @@
+Package: com.bensh.installipa15
+Version: 1.0
+Architecture: iphoneos-arm64
+Pre-Depends: firmware (>= 4.0), gsc.arm64
+Section: Utilities
+Priority: optional
+Description: Install IPA from the command line.
+Tag: role::enduser, purpose::console
+Author: bensh
+Maintainer: bensh
+Name: IPA Installer Console 15
+dev: bensh
