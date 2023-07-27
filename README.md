@@ -48,3 +48,11 @@ Data: /private/var/mobile/Containers/Data/Application/CBDF993D-7908-40D3-BE42-F5
 
 ## Build
 Clone the git, and run make from the parent dir.
+```
+installipa15$ make package FINALPACKAGE=1
+==> Notice: Build may be slow as Theos isn’t using all available CPU cores on this computer. Consider upgrading GNU Make: https://theos.dev/docs/parallel-building
+> Making all for tool installipa15…
+make[3]: Nothing to be done for `internal-tool-compile'.
+> Making stage for tool installipa15…
+dm.pl: building package `com.bensh.installipa15:iphoneos-arm64' in `./packages/com.bensh.installipa15_1.0_iphoneos-arm64.deb'
+```
