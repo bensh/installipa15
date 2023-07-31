@@ -14,8 +14,8 @@ $ dpkg -i com.bensh.installipa15_1.0_iphone-arm64.deb
 ```
 - Find the binary, then run, or add to path
 ```
-$ dpkg -L com.bensh.filedp15                        
-/var/jb/usr/bin/filedp15
+$ dpkg -L com.bensh.installipa15                        
+/var/jb/usr/bin/installipa15
 
 $ find / -name installipa15 -print 2>/dev/null
 /private/preboot/XXXXXXXXXXXXXXXXXXXXXXXXXXX/jb-XXXXXX/procursus/var/root/installipa15
